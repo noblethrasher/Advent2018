@@ -29,6 +29,8 @@
                   for (var i = 0; i < p.Length; i++)
                       if (s[i] == p[i])
                           yield return s[i];
+               
+                   break;
               }
           }
           finally
